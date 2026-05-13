@@ -3,7 +3,7 @@
 A desktop application built using **C#** and **.NET Framework** to demonstrate the implementation of **N-Tier Architecture (4-Tiers)** and database interaction using **ADO.NET**.
 
 ## 🎯 Purpose of the Project
-This repository is a practical educational project focused on "Separation of Concerns". It demonstrates how to build a scalable application by decoupling the User Interface, Business Logic, and Data Access layers.
+This repository is a practical educational project focused on "Separation of Concerns". It demonstrates how to build a scalable application by decoupling the User Interface, Business Logic, and Data Access layers, The three projects—DataAccessLayer, BusinessLayer, and ModulesLayer—were also used in a project with a different front-end, `Console Application` (https://github.com/ebrahim-hasan-dev/ConsoleAppPracticalApplicationOfUsingNTierArchitectureAndADO.NET-repo.git), thus emphasizing the importance of separating responsibilities and reusing them..
 
 ---
 
