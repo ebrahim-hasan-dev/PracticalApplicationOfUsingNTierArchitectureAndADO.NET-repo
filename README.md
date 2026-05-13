@@ -3,7 +3,7 @@
 A desktop application built using **C#** and **.NET Framework** to demonstrate the implementation of **N-Tier Architecture (4-Tiers)** and database interaction using **ADO.NET**.
 
 ## 🎯 Purpose of the Project
-This repository is a practical educational project focused on "Separation of Concerns". It demonstrates how to build a scalable application by decoupling the User Interface, Business Logic, and Data Access layers, The three projects—DataAccessLayer, BusinessLayer, and ModulesLayer—were also used in a project with a different front-end, `Console Application` (https://github.com/ebrahim-hasan-dev/ConsoleAppPracticalApplicationOfUsingNTierArchitectureAndADO.NET-repo.git), thus emphasizing the importance of separating responsibilities and reusing them..
+This repository is a practical educational project focused on "Separation of Concerns". It demonstrates how to build a scalable application by decoupling the User Interface, Business Logic, and Data Access layers.
 
 ---
 
@@ -15,6 +15,9 @@ The project is structured into four distinct layers to ensure maintainability an
 2.  **Business Layer (Class Library)**: Contains all business logic, validations, and orchestration of CRUD operations.
 3.  **Data Access Layer (Class Library)**: Responsible for direct communication with the **SQL Server** database using **ADO.NET**.
 4.  **Modules (Class Library)**: Contains the data models (POCO classes) representing the entities (`Contact`, `Country`). This layer is shared across all other layers.
+
+### ⚠️ Important Note
+The three projects—DataAccessLayer, BusinessLayer, and ModulesLayer—were also used in a project with a different front-end, `Console Application` (https://github.com/ebrahim-hasan-dev/ConsoleAppPracticalApplicationOfUsingNTierArchitectureAndADO.NET-repo.git), thus emphasizing the importance of separating responsibilities and reuse.
 
 ### 🔗 Dependencies Flow
 - **Presentation Layer** ➡️ depends on *Business Layer* & *Modules*.
